@@ -1,154 +1,70 @@
-%header
-  %nav#navbar
-    %ul#navigation
-      %li
-        %a{href: '#research'} Research
-      %li
-        %a{href: '#projects'} Projects
-      %li
-        %a{href: '#contact'} Contact
-    %ul#accounts
-      %li
-        %a{href: 'http://www.twitter.com/rutgerclaes'}
-          %span.fa-stack
-            %i.fa.fa-circle.fa-stack-2x
-            %i.fa.fa-twitter.fa-stack-1x.fa-inverse
-      %li
-        %a{href: 'http://www.github.com/rutgerclaes'}
-          %span.fa-stack
-            %i.fa.fa-circle.fa-stack-2x
-            %i.fa.fa-github.fa-stack-1x.fa-inverse
-      %li
-        %a{href: 'http://be.linkedin.com/in/rutgerclaes/'}
-          %span.fa-stack
-            %i.fa.fa-circle.fa-stack-2x
-            %i.fa.fa-linkedin.fa-stack-1x.fa-inverse
-%section#preface
-  .wrapper{'data-viewport' => true}
-    %section#about
-      %h1 Hello
-      %p 
-        My name is Rutger Claes.  I am a husband, dad, researcher, developer and 
-        data scientist living in Belgium.  My free time is spent with my wife and daughter, 
-        coaching at CoderDojo and learning new geeky stuff.
-    %a{href: '#research', class: 'next'}
-      %i.fa.fa-chevron-down
-%section#research
-  .wrapper{'data-viewport' => true}
-    %section#research-about
-      %h2 Research
-      %h4.subtitle Standing on the shoulders of giants and all that stuff.
-      %p 
-        I am a researcher at <a href="http://distrinet.cs.kuleuven.be">iMinds
-        DistriNet labs</a>.  My work focusses on coordination of large scale
-        distributed systems such as road traffic and smart grids.  At DistriNet
-        I perform my own PhD research, collaborate with other institutions and
-        companies on research projects and educate students.
-    %section#research-phd
-      %h3 PhD research
-      %p
-        <a href="http://kuleuven.academia.edu/RutgerClaes">My personal PhD
-        research</a> focusses on anticipatory vehicle routing.  Predicting
-        future road conditions and giving drivers information based on those
-        predictions.  The main challenges are the <em>scale</em> of the problem
-        (there is a lot of traffic) and the predicting future traffic
-        conditions through <em>machine learning</em> and <em>data mining</em>.
-    %section#research-projects
-      %h3 Research Projects
-      %p
-        I've worked on various projects together with other research
-        institutions and industrial partners.  The domains in which I've worked
-        are primarely <em>traffic <a class="reference" title="MASE Project" href="https://distrinet.cs.kuleuven.be/research/projects/showProject.do?projectID=MASE">
-        <i class="fa fa-external-link"></i></a></em> and <em>smartgrids <a class="reference" title="SWiFT project" href="http://www.iminds.be/nl/projecten/2014/03/06/swift">
-        <i class="fa fa-external-link"></i></a> <a class="reference" title="MonIEflex project" href="http://www.iminds.be/nl/projecten/2014/03/20/monieflex">
-        <i class="fa fa-external-link"></i></a></em>.
-        My role in the projects varies from <em>developing traffic simulation
-        software</em> to <em>software archicture design and analysis</em>.
-    %section#research-education
-      %h3 Education
-      %p
-        Over the years, I've taught a variety of courses including
-        <em>MultiAgent Systems</em>, <em>Introduction to object oriented programming</em>,
-        <em>Object oriented design</em> and <em>Problem Solving and Design</em>.  I've
-        also supervised over 10 master thesis projects.
-    %a{href: '#projects', class: 'next'}
-      %i.fa.fa-chevron-down
-#projects
-  .wrapper{'data-viewport' => true}
-    %section#projects-about
-      %h2 Projects
-      %h4.subtitle Sometimes you just want to build cool things.
-      %p
-        Outside of my university work, I have built a number of hobby projects.  Some of these projects are
-        just in support of organizations I'm a part of.  Some are meant to learn new technologies.  And some
-        are simply for fun.
-    %ul#projects-overview
-      %li
-        .image{style: "background-image: url( '/images/projects/wwwkcbjbe.png' )"}
-        %h4 KCBJ Online
-        %ul.links
-          %li
-            %a{href: 'http://www.kcbj.be'}
-              %i.fa.fa-share-square-o
-        %ul.tags
-          %li Ruby on Rails
-          %li MySQL
-      %li
-        .image{style: "background-image: url( '/images/projects/wwwkorfzonebe.png' )"}
-        %h4 Korfzone Website
-        %ul.links
-          %li
-            %a{href: 'http://www.korfzone.be'}
-              %i.fa.fa-share-square-o
-        %ul.tags
-          %li Ruby on Rails
-          %li PostgreSQL
-      %li
-        .image{style: "background-image: url( '/images/projects/korfzone-scraper.png' )"}
-        %h4 Korfzone Scraper
-        %ul.links
-          %li
-            %a{href: 'http://github.com/korfzone/korfzone-scraper'}
-              %i.fa.fa-github
-          %li
-            %a{href: 'http://rubygems.org/gems/korfzone-scraper'}
-              %i.fa.fa-code
-        %ul.tags
-          %li Ruby
-      %li
-        .image{style: "background-image: url( '/images/projects/mapviewherokuappcom.png' )"}
-        %h4 Mapview
-        %ul.links
-          %li
-            %a{href: 'http://github.com/rutgerclaes/mapview'}
-              %i.fa.fa-github
-          %li
-            %a{href: 'http://mapview.herokuapp.com'}
-              %i.fa.fa-share-square-o
-        %ul.tags
-          %li Scala
-          %li Play
-          %li Akka
-      %li
-        .image{style: "background-image: url( '/images/projects/wwwapotheekphilipsbe.png' )"}
-        %h4 Apotheek Philips
-        %ul.links
-          %li
-            %a{href: 'http://www.apotheekphilips.be'}
-              %i.fa.fa-share-square-o
-        %ul.tags
-          %li Static
-      %li
-        .image{style: "background-image: url( '/images/projects/wwwkunstvoorhuizedeveusterbe.png' )"}
-        %h4 Kunst voor Huize de Veuster
-        %ul.tags
-          %li Static
-#contact
-  .wrapper
-    %section#contact-about
-      %h2 Contact
-    #vcard.vcard.h-card{itemscope: true, itemtype: "http://data-vocabulary.org/Person"}
-      .fn.p-name{itemprop: 'name'} Rutger Claes
-      %a.u-email.email{ itemprop: 'email', href: 'mailto:mail@rutgerclaes.be' } mail@rutgerclaes.be
-%footer
-  .copyright &copy; 2014 Rutger Claes.
+---
+projects:
+  - title: KCBJ Online
+    links:
+      - icon: 'fa-share-square-o'
+        href: 'http://www.kcbj.be'
+    image: /images/projects/wwwkcbjbe.png
+    tags: [ 'Ruby on Rails', 'Ruby', 'MySQL' ]
+  - title: KorfZone Website
+    links: 
+      - icon: 'fa-share-square-o'
+        href: 'http://www.korfzone.be'
+    image: /images/projects/wwwkorfzonebe.png
+    tags: [ 'Ruby on Rails', 'Ruby', 'MySQL' ]
+  - title: KorfZone Scraper
+    image: /images/projects/korfzone-scraper.png
+    links:
+      - icon: 'fa-github'
+        href: 'http://github.com/korfzone/korfzone-scraper'
+      - icon: 'fa-code'
+        href: 'http://rubygems.org/gems/korfzone-scraper'
+    tags: [ 'Ruby', 'Rubygem' ]
+  - title: Mapview
+    image: /images/projects/mapviewherokuappcom.png
+    links:
+      - icon: 'fa-github'
+        href: 'http://github.com/rutgerclaes/mapview'
+      - icon: 'fa-share-square-o'
+        href: 'http://mapview.herokuapp.com'
+    tags: [ 'Scala', 'Play', 'Akka' ]
+  - title: 'Apotheek Philips'
+    image: /images/projects/wwwapotheekphilipsbe.png
+    links:
+      - icon: 'fa-share-square-o'
+        href: 'http://www.apotheekphilips.be'
+    tags: [ 'Static' ]
+  - title: Kunst voor Huize de Veuster
+    image: /images/projects/wwwkunstvoorhuizedeveusterbe.png
+    links: []
+    tags: [ 'Static' ]
+  - title: Personal site
+    image: /images/projects/wwwrutgerclaesbe.png
+    links:
+      - icon: 'fa-share-square-o'
+        href: 'http://www.rutgerclaes.be'
+      - icon: 'fa-github'
+        href: 'http://github.com/rutgerclaes/rutgerclaes.github.io'
+    tags: [ 'Static', 'Middleman' ]
+  - title: De BloedBank API
+    image: /images/projects/bloedbank.png
+    links: 
+      - icon: 'fa-github'
+        href: 'http://github.com/rutgerclaes/bloedbank'
+    tags: [ 'Ruby on rails', 'Ruby' ]
+  - title: De BloedBank documentation
+    image: /images/projects/bloedbankdoc.png
+    links:
+      - icon: 'fa-github'
+        href: 'http://github.com/rutgerclaes/bloedbank/tree/doc'
+      - icon: 'fa-share-square-o'
+        href: 'http://rutgerclaes.github.io/bloedbank'
+    tags: [ 'Static', 'Middleman' ]
+
+---
+= partial "partials/header"
+= partial "partials/about"
+= partial "partials/research"
+= partial "partials/projects"
+= partial "partials/contact"
+= partial "partials/footer"

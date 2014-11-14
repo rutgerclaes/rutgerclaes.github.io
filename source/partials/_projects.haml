@@ -1,0 +1,22 @@
+#projects
+  .wrapper{'data-viewport' => true}
+    %section#projects-about
+      %h2 Projects
+      %h4.subtitle Sometimes you just want to build cool things.
+      %p
+        Outside of my university work, I have built a number of hobby projects.  Some of these projects are
+        just in support of organizations I'm a part of.  Some are meant to learn new technologies.  And some
+        are simply for fun.
+    %ul#projects-overview
+      - current_page.data.projects.each do |project|
+        %li
+          .image{style: "background-image: url( '" + project[ 'image' ] + "' )"}
+          %h4= project[ 'title' ]
+          %ul.links
+            - project[ 'links' ].each do |link|
+              %li
+                %a{href: link[ 'href' ]}
+                  %i{class: "fa #{link['icon']}"}
+          %ul.tags
+            - project[ 'tags' ].each do |tag|
+              %li= tag
