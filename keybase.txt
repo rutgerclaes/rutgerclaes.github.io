@@ -4,61 +4,49 @@ https://keybase.io/rutgerclaes
 
 I hereby claim:
 
-  * I am an admin of http://rutgerclaes.be
+  * I am an admin of https://rutgerclaes.be
   * I am rutgerclaes (https://keybase.io/rutgerclaes) on keybase.
-  * I have a public key with fingerprint 260A EE2E 5B15 FB23 4458  788B 5161 BA5F 69CE 858F
+  * I have a public key ASDfPoUimTo7Bh_5tSC5DPi_kNsByc6f4zioYLT4E93yNwo
 
 To do so, I am signing this object:
 
 {
-    "body": {
-        "key": {
-            "eldest_kid": "010183865fe7ded78cd854ebaf6afe227e87491a9fa4459416f3765add5cb706379b0a",
-            "fingerprint": "260aee2e5b15fb234458788b5161ba5f69ce858f",
-            "host": "keybase.io",
-            "key_id": "5161ba5f69ce858f",
-            "kid": "010183865fe7ded78cd854ebaf6afe227e87491a9fa4459416f3765add5cb706379b0a",
-            "uid": "851c6e93d60e3f3476ca59308f44f719",
-            "username": "rutgerclaes"
-        },
-        "service": {
-            "hostname": "rutgerclaes.be",
-            "protocol": "http:"
-        },
-        "type": "web_service_binding",
-        "version": 1
+  "body": {
+    "key": {
+      "eldest_kid": "010183865fe7ded78cd854ebaf6afe227e87491a9fa4459416f3765add5cb706379b0a",
+      "host": "keybase.io",
+      "kid": "0120df3e8522993a3b061ff9b520b90cf8bf90db01c9ce9fe338a860b4f813ddf2370a",
+      "uid": "851c6e93d60e3f3476ca59308f44f719",
+      "username": "rutgerclaes"
     },
-    "ctime": 1467976660,
-    "expire_in": 157680000,
-    "prev": "f411a52fea87aa94629244b26e2b56c196006a68af0ef58c1c522083800f7145",
-    "seqno": 8,
-    "tag": "signature"
+    "merkle_root": {
+      "ctime": 1532329236,
+      "hash": "d58428a33c4a8b70a4cd33bbd0462b5ea03cfc7ae974a3b2f0cff6610758c7e05be935e002dbf5c7c71d2ed78c0f37cb81c0e06126a29b2e23db226432107b2a",
+      "hash_meta": "1f9a492573420bdc0edaa5528cc6d079ae76d0fd0e2e130996d292e61ab5a30f",
+      "seqno": 3313991
+    },
+    "service": {
+      "entropy": "3RcK492BQPoSNvty5lWhaJvI",
+      "hostname": "rutgerclaes.be",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.3.0"
+  },
+  "ctime": 1532329257,
+  "expire_in": 504576000,
+  "prev": "c592efbc48130b8b776487c32e8b3c8c3ad7a80e87b18d6137bc51177eab822f",
+  "seqno": 30,
+  "tag": "signature"
 }
 
 which yields the signature:
 
------BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v2.0.53
-Comment: https://keybase.io/crypto
-
-yMIjAnicrVJdSBRRGF0rs9akjB7CKG3Il1y2Oz/3zp0lC40SpSh6qSjY7szcu07Z
-7DY7a21lCrogKhHUgxT+ZP9CRZFCaJASlfoQlZREf1iGUQ9iRFFR3ZF6qsfuy+Xe
-75zznfPx3c6a7vOnPc5LTSuli1anDfWdTPi2VDcOHxT0qJkUQgeF3XTqohUmjbvh
-3ZYphAQgAhHLGEFGVZOaKjZMDBWqE4YIo5KkUqwqmkg0RhQFaoqImKwiSEwTGroK
-kKxqOiBCQGCWHaFOzLFsl8tKCBBKJQp1ETJdkjkXqxjrUESiTiBDmkExxIwTy6Nx
-j8HN6SROg1aU//FHeMreP/D/2XdiSg5D0UBUk00EqMxkRUUGgZoMMFMUpoqaB4xT
-xyZ7KEc7CZdnNSoIjQtVAYEXKi2DerP1wvwNCuqUC8ScqBs1ohW8Vu66sZBHdZMx
-D7uP6uHfKmHdsk0+S06opE7citpCSORIw7U8WVFBqqYihEBAoPtjlkPDloeAKsKA
-H68NreSSTBFFAiVGCVYJ0RQkaZKi6BKikg6RIWoIAEQQJgxQBrEhGlCSAB8pADyw
-AgUv1147KoQwt0kiXDJuRWziJhwqVPXf2jHDl+b3zUyf5u2Yzz973p/N2zk343tm
-sP/I/M7+n6O52fXWl4HUtQmwofvBocx6tzmSHiis27a4pzg19ulYRtF4khU+Gm14
-M9LgZJ/4+Pjp62F/nrzwa1bnt+Utl3rGK5KlRY1FvmXrdxWOBXKGLmYXXJudtfFe
-2/MRu6oso6v1yoymWe/LDr+qOXXVaF8Z2pTy34x0B7b1vnAUtHFTh8se/mwKrnEb
-8osmNr8sKSgcnH44e/+zytoFp7vPrzr69mxrzkBd39YPOded4tPVob6OpJsgbQvv
-KOP3V9zQY37t3b7Jli554Mfzy0/kms+vLl+YEzzzvVbee/fp8RIVCAU/cvJlI3Ny
-+9JzB9qbl+SuHVxnp3pLFv0CCdY9Vg==
-=jsBj
------END PGP MESSAGE-----
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg3z6FIpk6OwYf+bUguQz4v5DbAcnOn+M4qGC0+BPd8jcKp3BheWxvYWTESpcCHsQgxZLvvEgTC4t3ZIfDLos8jDrXqA6HsY1hN7xRF36rgi/EIOhanEcdIh1MACOiCcaIOuPDUiFYFFFU7swlEMncGXuYAgHCo3NpZ8RAwvWNzng5H1+1y8s6mD/NjqpcvtyvmZgr6tirT2zlqqB3CKFC/0vV8GHRKz2d5i1F9Jc+YnrWos+KXIRMG+HpBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHok4Wni417nTDVtTdletnJ5Opou/01mAvQcc3cF4NC5o3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
